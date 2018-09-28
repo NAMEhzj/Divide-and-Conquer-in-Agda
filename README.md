@@ -1,5 +1,7 @@
 # Divide and Conquer in Agda
 
+created by Eva Richter, Matti Richter April 2018
+
 This repositiory implements the divide and donquer programming scheme as described by  Douglas R. Smith in "The Design of Divide and Conquer Algorithms", 1984 in Agda. 
 
 The module DivideEtImpera realizes the implementation of the scheme as described in the paper, as well as a second version which is very similar, but features a second recursive call of the algorithm. It seemed to us that this second version is actually divide and conquer, whereas the first version simply describes a general recursive algorithm with a single recursive call (i. e. no real "divide" part).
